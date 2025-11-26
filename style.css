@@ -1,3 +1,13 @@
+.headshot {
+  width: 35vw;         /* 35% of the screen width */
+  max-width: 140px;    /* absolutely never bigger than this */
+  height: auto;        /* keeps proportions natural */
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -39,16 +49,6 @@ h1, h2 {
   text-decoration: none;
   color: #222;
   font-weight: 600;
-}
-
-.headshot {
-  width: 35vw;         /* 35% of the screen width */
-  max-width: 140px;    /* absolutely never bigger than this */
-  height: auto;        /* keeps proportions natural */
-  border-radius: 50%;
-  border: 3px solid rgba(255, 255, 255, 0.7);
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
-  margin-bottom: 15px;
 }
 
 .resume-button {
