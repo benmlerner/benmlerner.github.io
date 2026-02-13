@@ -1,12 +1,14 @@
 .headshot {
-  width: 180px;       /* clear, visible size */
-  max-width: 45vw;    /* prevents overflow on very small screens */
+  width: 80%;
+  max-width: 320px;
   height: auto;
-  border-radius: 50%;
+  border-radius: 18px; /* softer modern shape instead of circle */
+  margin: 0 auto 20px auto;
+  display: block;
+
   border: 3px solid rgba(255, 255, 255, 0.7);
-  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.22);
-  margin-bottom: 18px;
-}
+  box-shadow: 0 4px 18px rgba(0, 0,
+
 
 
 body {
