@@ -1,12 +1,12 @@
 .headshot {
-  width: clamp(150px, 38vw, 190px);
+  width: 180px;       /* clear, visible size */
+  max-width: 45vw;    /* prevents overflow on very small screens */
   height: auto;
   border-radius: 50%;
   border: 3px solid rgba(255, 255, 255, 0.7);
   box-shadow: 0 3px 14px rgba(0, 0, 0, 0.22);
   margin-bottom: 18px;
 }
-
 
 
 body {
