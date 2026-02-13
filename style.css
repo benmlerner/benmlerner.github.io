@@ -1,12 +1,13 @@
 .headshot {
-  width: 35vw;         /* 35% of the screen width */
-  max-width: 140px;    /* absolutely never bigger than this */
-  height: auto;        /* keeps proportions natural */
+  width: 40vw;          /* slightly larger on mobile */
+  max-width: 165px;     /* still capped so it never gets huge */
+  height: auto;
   border-radius: 50%;
   border: 3px solid rgba(255, 255, 255, 0.7);
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
+
 
 body {
   margin: 0;
